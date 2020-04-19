@@ -105,6 +105,13 @@ p {
   text-decoration: none;
 }
 
+.form {
+  text-align: center;
+  font-family: 'Montserrat', cursive;
+  color: lightyellow;
+  margin: auto 50px;
+}
+
 .golfer {
   /*vertical-align: top;*/
   float: right;
@@ -115,6 +122,15 @@ p {
 .idiot-image {
   width: 25%;
   height: 25%;
+}
+
+.input {
+  font-size: medium;
+  font-family: Montserrat;
+  background: cadetblue;
+  color: lightyellow;
+  font-weight: bold;
+  margin: 20px auto;
 }
 
 .list {
@@ -156,6 +172,10 @@ p {
   width: 50%;
   text-align: left;
   line-height: 2;
+}
+
+.text{
+  margin: 20px auto;
 }
 
 .top-container {
