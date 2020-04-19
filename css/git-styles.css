@@ -1,0 +1,176 @@
+/*Tags*/
+a {
+  color: #40514E;
+  font-family: 'Montserrat', cursive;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #eaf6f6;
+}
+
+body {
+  background-color: #a4c5c6;
+  margin-left: 20px;
+  font-family: 'Merriweather', serif;
+}
+
+hr {
+  border: dotted grey 6px;
+  border-bottom: none;
+  width: 5%;
+  margin: 100 auto;
+}
+
+h1 {
+  color: lightyellow;
+  font-family: 'Arizonia', cursive;
+  font-size: 4rem;
+  margin: 30px auto 0 auto;
+  font-weight: bold;
+}
+
+h2 {
+  color: lightyellow;
+  font-family: 'Montserrat', cursive;
+  font-size: 2.5rem;
+  font-weight: bolder;
+  text-align: center;
+}
+
+h3 {
+  color: lightyellow;
+  font-family: 'Montserrat', cursive;
+  font-size: 1.5rem;
+  font-weight: normal;
+  text-align: center;
+}
+
+p {
+  font-family: 'Montserrat', cursive;
+  color: lightyellow;
+  text-align: center;
+  margin-top: 150px;
+  font-size: 0.75rem;
+}
+
+/*Classes*/
+.bottom-cloud {
+  position: absolute;
+  left: 30%;
+  text-align: left;
+  bottom: 200px;
+}
+
+.bottom-container {
+  text-align: center;
+}
+
+.btn {
+  background: darkgrey;
+  border-radius: 8px;
+  border: 3px solid lightyellow;
+  display: inline-block;
+  cursor: pointer;
+  color: cadetblue;
+  font-family: 'Montserrat', cursive;
+  font-size: 16px;
+  font-weight: bold;
+  padding: 12px 37px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: linear-gradient(to bottom, cadetblue 20%, powderblue 80%);
+}
+
+.coach-image {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+.contact-me {
+  text-align: center;
+  margin: 40px auto 60px;
+}
+
+.copyright {
+  font-size: 0.5rem;
+  padding: 20px 0;
+}
+
+.footer-link {
+  margin: auto 20px auto auto;
+  text-decoration: none;
+}
+
+.golfer {
+  /*vertical-align: top;*/
+  float: right;
+  position: absolute;
+  right: 20px
+}
+
+.idiot-image {
+  width: 25%;
+  height: 25%;
+}
+
+.list {
+  text-align: left;
+  width: 25%;
+  margin: auto auto 50px;
+  text-decoration: none;
+}
+
+.middle-container {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #40514E;
+}
+
+.mountains {
+  background-color: #a4c5c6;
+  margin: 100px auto;
+}
+
+.profile {
+  margin: 50px auto 50px auto;
+  width: 50%;
+  text-align: center;
+}
+
+.prog-image {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.skills {
+  margin: auto auto 120px auto;
+}
+
+.skill-row {
+  margin: 0 auto 50px auto;
+  width: 50%;
+  text-align: left;
+  line-height: 2;
+}
+
+.top-container {
+  background-color: #a4c5c6;
+  text-align: center;
+  position: relative;
+  padding-top: 10px;
+  margin-bottom: 50px;
+  text-decoration: none;
+}
+
+.top-cloud {
+  position: absolute;
+  right: 30%;
+  text-align: right;
+}
+
+/*ID's*/
