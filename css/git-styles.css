@@ -10,6 +10,7 @@ a:hover {
 }
 
 body {
+  text-align: left;
   background-color: #a4c5c6;
   margin-left: 20px;
   font-family: 'Merriweather', serif;
@@ -46,6 +47,14 @@ h3 {
   text-align: center;
 }
 
+h5{
+  color: lightyellow;
+  font-family: 'Montserrat', cursive;
+  font-size: 1rem;
+  font-weight: normal;
+  text-align: center;
+}
+
 p {
   font-family: 'Montserrat', cursive;
   color: lightyellow;
@@ -62,15 +71,21 @@ p {
   bottom: 200px;
 }
 
-.bottom-container {
-  text-align: center;
+.courses-h2{
+  text-align: left;
+  margin: 20px auto 10px 37.5px;
+}
+
+.courses-h3{
+  text-align: left;
+  margin: 20px auto 10px;
 }
 
 .form {
   text-align: center;
   font-family: 'Montserrat', cursive;
   color: lightyellow;
-  margin: auto 50px;
+  margin: 50px auto;
 }
 
 .input {
@@ -80,6 +95,11 @@ p {
   color: lightyellow;
   font-weight: bold;
   margin: 20px auto;
+}
+
+.link {
+  font-weight: bold;
+  margin: 50px 42% auto 42%;
 }
 
 .list {
@@ -94,7 +114,7 @@ p {
   margin: 100px auto;
 }
 
-.text{
+.text {
   margin: 20px auto;
 }
 
