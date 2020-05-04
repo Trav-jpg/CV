@@ -39,12 +39,21 @@
     <li><a href="https://www.udemy.com/course/better-management-through-understanding-yourself/">Self Awareness</a></li>
   </ul>
   <a class=" link" href="courses.html">Some other resources to look at</a>
+
+  <script type="text/javascript">
+    function resetForm(){
+      alert("Thank you for your input.");
+      document.getElementsByClassName("text")[0].value = "";
+    }
+  </script>
+
 </body>
 
 <form id="form-id" class="form" action="mailto:homedev2020@outlook.com?Subject=New" method="post" enctype="text/plain">
   <label>Please add any links to useful resources you've seen or requests for subjects below and I'll include them:</label><br>
   <textarea class="text" name="text" rows="1" cols="80"></textarea><br>
-  <input class="input " type="submit" name="">
+  <input class="input" onmouseup="resetForm()" type="submit" name="">
+
 </form>
 
 </html>
